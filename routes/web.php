@@ -21,7 +21,7 @@ Route::get('fotos/{numero?}', function ($numero = 0) {
     return 'Estás en la galería de fotos: '.$numero;
 })->where('numero', '[0-9]+');
 
-Route::get('categorias/{nummero?]', function ($numero = 0) {
+Route::get('categorias/{nummero?}', function ($numero = 0) {
     return 'Estás en la categoría: '.$numero;
 })->where('numero', '[0-9]+');
 
